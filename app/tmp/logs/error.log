@@ -1,0 +1,836 @@
+2014-05-02 06:42:30 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:42:39 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:46:04 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:46:05 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:46:05 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:46:05 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:46:56 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:47:01 Error: [MissingHelperException] Helper class ’Html’Helper could not be found.
+Exception Attributes: array (
+  'class' => '’Html’Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(872): HelperCollection->load('???Html???', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(347): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-02 06:49:52 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/2
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 07:03:11 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/2
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 07:03:39 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Posts/view.ctp',
+)
+Request URL: /cakephp/posts/view/2
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 07:03:43 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Posts/view.ctp',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 07:04:54 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Posts/view.ctp',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 07:04:58 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Posts/view.ctp',
+)
+Request URL: /cakephp/posts/view/2
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 07:05:46 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/html/cakephp/app/Controller/PostsController.php, line 12]
+2014-05-02 07:05:46 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /cakephp/posts/view/2
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 12, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 12, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 07:05:50 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/html/cakephp/app/Controller/PostsController.php, line 12]
+2014-05-02 07:05:50 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /cakephp/posts/view/2
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 12, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 12, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 07:07:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/cakephp/app/Controller/PostsController.php, line 7]
+2014-05-02 07:07:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 07:08:00 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/cakephp/app/Controller/PostsController.php, line 7]
+2014-05-02 07:08:00 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 12:33:25 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/posts/edit
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 12:40:14 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/posts/edit
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 12:55:49 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/posts/edit
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 13:09:14 Error: [MissingActionException] Action PostsController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'delete',
+)
+Request URL: /cakephp/posts/delete/3
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-03 18:33:25 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 18:33:28 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/var/www/html/cakephp/app/Controller/UsersController.php, line 7]
+2014-05-03 18:33:28 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:34:02 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 18:34:20 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/var/www/html/cakephp/app/Controller/UsersController.php, line 7]
+2014-05-03 18:34:20 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:46:59 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/var/www/html/cakephp/app/Controller/UsersController.php, line 68]
+2014-05-03 18:46:59 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/c...', 68)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/c...', 68, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/c...', 68, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:47:06 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/var/www/html/cakephp/app/Controller/UsersController.php, line 68]
+2014-05-03 18:47:06 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/c...', 68)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/c...', 68, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/c...', 68, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:47:07 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/var/www/html/cakephp/app/Controller/UsersController.php, line 68]
+2014-05-03 18:47:07 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/c...', 68)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/c...', 68, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/c...', 68, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:01:04 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/html/cakephp/app/Controller/AppController.php, line 45]
+2014-05-03 19:01:04 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 45, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 45, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:02:57 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 19:07:32 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 19:07:36 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 19:07:39 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 19:07:50 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 19:07:57 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/add
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 19:09:29 Error: [MissingComponentException] Component class ,SessionComponent could not be found.
+Exception Attributes: array (
+  'class' => ',SessionComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load(',Session', Array)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 19:09:30 Error: [MissingComponentException] Component class ,SessionComponent could not be found.
+Exception Attributes: array (
+  'class' => ',SessionComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load(',Session', Array)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 19:25:04 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/html/cakephp/app/View/Layouts/default.ctp, line 55]
+2014-05-03 19:25:04 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 55, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 55, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:25:59 Error: Fatal Error (4): syntax error, unexpected '?>' in [/var/www/html/cakephp/app/View/Layouts/default.ctp, line 26]
+2014-05-03 19:25:59 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 26, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 26, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:47:27 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/cakephp/app/View/Users/login.ctp, line 9]
+2014-05-03 19:47:27 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 9, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 9, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:47:32 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/cakephp/app/View/Users/login.ctp, line 9]
+2014-05-03 19:47:32 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 9, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 9, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:49:53 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 19:50:02 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-03 20:13:54 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 00:07:53 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 00:09:21 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 00:09:22 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 00:09:22 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 00:09:22 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 00:28:54 Error: [MissingControllerException] Controller class PoController could not be found.
+Exception Attributes: array (
+  'class' => 'PoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/po
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 00:29:05 Error: Fatal Error (64): Cannot redeclare PostsController::$components in [/var/www/html/cakephp/app/Controller/PostsController.php, line 7]
+2014-05-06 00:29:05 Error: [FatalErrorException] Cannot redeclare PostsController::$components
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 00:35:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/cakephp/app/Controller/UsersController.php, line 43]
+2014-05-06 00:35:30 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 43, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 43, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 00:35:47 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/cakephp/app/Controller/UsersController.php, line 43]
+2014-05-06 00:35:47 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 43, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 43, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 00:36:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /var/www/html/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(Array, Array, Array)
+#8 /var/www/html/cakephp/app/Controller/UsersController.php(38): Controller->paginate(Array)
+#9 [internal function]: UsersController->index()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 00:36:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /var/www/html/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(Array, Array, Array)
+#8 /var/www/html/cakephp/app/Controller/UsersController.php(28): Controller->paginate(Array)
+#9 [internal function]: UsersController->index()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 00:38:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /var/www/html/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(Array, Array, Array)
+#8 /var/www/html/cakephp/app/Controller/UsersController.php(28): Controller->paginate(Array)
+#9 [internal function]: UsersController->index()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 00:38:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /var/www/html/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(Array, Array, Array)
+#8 /var/www/html/cakephp/app/Controller/UsersController.php(28): Controller->paginate(Array)
+#9 [internal function]: UsersController->index()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 00:38:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /var/www/html/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(Array, Array, Array)
+#8 /var/www/html/cakephp/app/Controller/UsersController.php(28): Controller->paginate(Array)
+#9 [internal function]: UsersController->index()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 00:40:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setlimit' in 'where clause'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /var/www/html/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(Array, Array, Array)
+#8 /var/www/html/cakephp/app/Controller/UsersController.php(28): Controller->paginate(Array)
+#9 [internal function]: UsersController->index()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 00:41:49 Error: Fatal Error (1): Call to undefined method UsersController::setlimit() in [/var/www/html/cakephp/app/Controller/UsersController.php, line 38]
+2014-05-06 00:41:49 Error: [FatalErrorException] Call to undefined method UsersController::setlimit()
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 38, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 38, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 00:43:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /var/www/html/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(Array, Array, Array)
+#8 /var/www/html/cakephp/app/Controller/UsersController.php(38): Controller->paginate(Array)
+#9 [internal function]: UsersController->index()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 00:43:28 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/cakephp/app/Controller/UsersController.php, line 38]
+2014-05-06 00:43:28 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp/users/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 38, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 38, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 00:53:04 Error: [NotFoundException] Not Found
+Request URL: /cakephp/users/index/page:4
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#1 /var/www/html/cakephp/app/Controller/UsersController.php(39): Controller->paginate()
+#2 [internal function]: UsersController->index()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-06 00:53:07 Error: [NotFoundException] Not Found
+Request URL: /cakephp/users/index/page:4
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#1 /var/www/html/cakephp/app/Controller/UsersController.php(39): Controller->paginate()
+#2 [internal function]: UsersController->index()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-05-06 01:02:33 Error: Fatal Error (4): syntax error, unexpected '__' (T_STRING) in [/var/www/html/cakephp/app/View/Users/index.ctp, line 56]
+2014-05-06 01:02:33 Error: [FatalErrorException] syntax error, unexpected '__' (T_STRING)
+Request URL: /cakephp/users/index/page:2
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 56, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 56, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 01:04:31 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/edit.ctp',
+)
+Request URL: /cakephp/users/edit/7
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 01:04:36 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/edit.ctp',
+)
+Request URL: /cakephp/users/edit/11
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 01:04:54 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/view.ctp',
+)
+Request URL: /cakephp/users/view/12
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 13:55:14 Error: [MissingViewException] View file "/var/www/html/cakephp/app/View/Users/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/cakephp/app/View/Users/view.ctp',
+)
+Request URL: /cakephp/users/view/7
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
