@@ -40,6 +40,17 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php //echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+                        <p style="text-align:right;margin: O auto;">
+                        <?php  
+                        if($this->Session->check('Auth.User') == true)
+                        {
+                            echo $this->Html->link('Salir', '/users/logout', array('class' => 'submit'));
+                        }
+                        //Debugger::dump($this->Session->check('Auth.User'));
+                        ?>    
+                            
+                        
+                        </p>
 		</div>
 		<div id="content">
 

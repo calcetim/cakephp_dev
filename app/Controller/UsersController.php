@@ -19,6 +19,8 @@ class UsersController extends AppController {
 
 	public function index() {
 		//$this->set('users', $this->User->find('all'));
+            Debugger::dump($this->User->find('list'));
+            
 		$this->User->recursive = 0;
 		$this->set('users', $this->paginate());
 

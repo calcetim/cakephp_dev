@@ -3,8 +3,12 @@
 
 		App::uses('AppModel', 'Model');
 		App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
+                
+                
 
 		class User extends AppModel {
+                        public $name = 'User';
+                    
 			public $validate = array(
 				'username' => array(
 					'required' => array(
@@ -36,7 +40,9 @@
 				}
 				return true;
 			}
-
+                        
+                        
+                        
 		}
 
 		?>
