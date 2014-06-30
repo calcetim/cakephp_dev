@@ -597,6 +597,7 @@ class AuthComponent extends Component {
 
 		if (empty($user)) {
 			$user = $this->identify($this->request, $this->response);
+                       
 		}
 		if ($user) {
 			$this->Session->renew();

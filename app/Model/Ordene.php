@@ -1,16 +1,27 @@
-<?php
+		<?php
+		App::uses('AppModel', 'Model');
+		App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 
-App::uses('AppModel', 'Model');
-class Ordene extends AppModel 
-{
+		class Ordene extends AppModel {
+                        public $name = 'Ordene';
+                        //public $hasOne  =  'TipoUsuario' ;
+                        
+                     
+                                                      
+                                                       var $belongsTo = array (
+                                                                                'Usuario' => array (
+                                                                                    'className'  =>  'Usuario',
+                                                                                    'foreignKey' => 'usuario_asignado_id'
+                                                                                ),
+                                                                                'Estado' => array (
+                                                                                    'className'  =>  'Estado',
+                                                                                    'foreignKey' => 'estado_id'
+                                                                                )   
+                                                                            );
+                                                       
 
-	public $name = 'Ordene';
 
+                        
+                        
+		}
 
-
-
-
-
-}
-
-?>
