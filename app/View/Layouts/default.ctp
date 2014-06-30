@@ -40,6 +40,46 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php //echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+                        <p style="text-align:right;margin: O auto;">
+                        <?php 
+                        echo "<div>";
+                        if($this->Session->check('Usuario'))
+                        
+                        {
+                        echo "<ul id=\"button\">";
+                        echo "<li>";
+                        echo $this->Html->link('Ingreso OT ', '/ordenes/add');
+                        echo "</li>";
+                        echo "<li>";
+                        echo $this->Html->link('Ingreso Usuario ', '/usuarios/index');
+                        echo "</li>";
+                        echo "<li>";
+                        echo $this->Html->link('Ingreso Cliente ', '/clientes/index');
+                        echo "</li>";
+                        echo "<li>";
+                        echo $this->Html->link('Ingreso Areas ', '/areas/index');
+                        echo "</li>";
+                        echo "<li>";
+                        echo $this->Html->link('Listado OT', '/ordenes/index');
+                        echo "</li>";
+
+                            echo "<li>";
+                            echo $this->Html->link('Salir', '/usuarios/logout', array('class' => 'submit'));
+                            echo "</li>";
+                            //echo $this->Session->flash('flash', array(
+  //  'params' => array('name' => $user['Usuario']['nombre'])
+//));
+
+                            
+                       
+                        }
+                        //Debugger::dump($this->Session->check('Auth.User'));
+                        echo "</div>";
+                        echo "</div>";
+                        ?>    
+                            
+                        
+                        </p>
 		</div>
 		<div id="content">
 

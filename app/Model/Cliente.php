@@ -1,28 +1,21 @@
 		<?php
-		// app/Model/User.php
-
 		App::uses('AppModel', 'Model');
 		App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 
-		class User extends AppModel {
+		class Cliente extends AppModel {
+                        public $name = 'Cliente';
+                        
 			public $validate = array(
-				'username' => array(
+				'nombre' => array(
 					'required' => array(
 						'rule' => array('notEmpty'),
-						'message' => 'A username is required'
+						'message' => 'campo requerido'
 						)
 					),
-				'password' => array(
+				'descripcion' => array(
 					'required' => array(
 						'rule' => array('notEmpty'),
-						'message' => 'A password is required'
-						)
-					),
-				'role' => array(
-					'valid' => array(
-						'rule' => array('inList', array('admin', 'author')),
-						'message' => 'Please enter a valid role',
-						'allowEmpty' => false
+						'message' => 'campo requerido'
 						)
 					)
 				);
@@ -36,7 +29,8 @@
 				}
 				return true;
 			}
-
+                        
+                        
+                        
 		}
 
-		?>

@@ -11,5 +11,5 @@ echo $this->Form->input('role', array('label'=> 'Rol',
 ?>
 </fieldset>
 <?php echo $this->Form->end(__('Guardar')); ?>
-<?php echo $this->Html->link('Click Here', '/users/index', array('class' => 'submit'));?>
+<?php echo $this->Html->link('Click Here', '/users/logout', array('class' => 'submit'));?>
 </div>

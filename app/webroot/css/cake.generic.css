@@ -78,13 +78,13 @@ p {
 }
 
 #header{
-	padding: 10px 20px;
+	padding: 0px 0px;
 }
 #header h1 {
 	line-height:20px;
 	background: #003d4c url('../img/cake.icon.png') no-repeat left;
 	color: #fff;
-	padding: 0px 30px;
+	padding: 0px 0px;
 }
 #header h1 a {
 	color: #fff;
@@ -119,8 +119,8 @@ div.index,
 div.view {
 	float:right;
 	width:76%;
-	border-left:1px solid #666;
-	padding:10px 2%;
+	//border-left:1px solid #666;
+	padding:10px 10%;
 }
 div.actions {
 	float:left;
@@ -308,20 +308,20 @@ form div.submit {
 	margin-top: 10px;
 }
 label {
-	display: block;
+	//display: block;
 	font-size: 110%;
 	margin-bottom:3px;
 }
 input, textarea {
 	clear: both;
-	font-size: 140%;
+	font-size: 100%;
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
 	padding: 1%;
 	width:98%;
 }
 select {
 	clear: both;
-	font-size: 120%;
+	font-size: 100%;
 	vertical-align: text-bottom;
 }
 select[multiple=multiple] {
@@ -739,4 +739,50 @@ pre {
 /** Elements **/
 #url-rewriting-warning {
 	display:none;
+}
+
+
+
+#button li { display: inline; }
+
+#button li a {
+font-family: Arial;
+font-size:90%;
+text-decoration: none;
+float:left;
+padding: 10px 10px 10px 10px;
+background-color: #021d7e;
+color: #fff;
+}
+
+#button li a:hover { background-color: #1d3aa7; 
+                     margin-top:-2px; 
+                     //padding-bottom:12px;
+                    } 
+
+.filters div.input.select, .filters div.input.text{
+	float:left;
+	width:150px;
+	clear:none;	
+}
+
+.filters div.input.select select{
+	width:140px;
+}
+
+.filters div.submit{
+	float:left;
+	clear:none;
+	display:block;
+}
+
+.filters a{
+	display: block;
+    font-size: 16px;
+    padding: 5px 13px;
+    width: 44px;
+}
+
+.highlight{
+	background-color: yellow;
 }

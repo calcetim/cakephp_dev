@@ -4,7 +4,7 @@ class PostsController extends AppController {
 	public $name 		= 'Posts';
 	public $components 	= array('Session');
 
-	public function isAuthorized($user) {
+	public function isAuthorized($usuario) {
 // All registered users can add posts
 		if ($this->action === 'add') {
 			return true;
@@ -13,16 +13,26 @@ class PostsController extends AppController {
 // The owner of a post can edit and delete it
 		if (in_array($this->action, array('edit', 'delete'))) {
 			$postId = (int) $this->request->params['pass'][0];
-			if ($this->Post->isOwnedBy($postId, $user['id'])) {
+			if ($this->Post->isOwnedBy($postId, $usuario['id'])) {
 				return true;
 			}
 		}
-		return parent::isAuthorized($user);
+		return parent::isAuthorized($usuario);
 	}
 	
 
 	function index() {
+                $this->loadModel('Usuario');
 		$this->set('posts', $this->Post->find('all'));
+                $usuarios = $this->Usuario->find('list',
+                                            array(
+                                                'fields'=>array('id','username')
+                                                )); //we get the authors from the database
+                $this->set('usuarios', $usuarios);
+                
+                
+                 //Debugger::dump($this->User->find('list'));
+                            
 	}
 
 	public function view($id = null) {
@@ -32,7 +42,7 @@ class PostsController extends AppController {
 
 	public function add() {
 		if ($this->request->is('post')) {
-			$this->request->data['Post']['user_id'] = $this->Auth->user('id');
+			$this->request->data['Post']['user_id'] = $this->Auth->usfier('id');
 			if ($this->Post->save($this->request->data)) {
 				$this->Session->setFlash('Your post has been saved.');
 				$this->redirect(array('action' => 'index'));
@@ -75,4 +85,3 @@ class PostsController extends AppController {
 
 
 }
-?>

@@ -17,6 +17,10 @@ array('controller' => 'posts', 'action' => 'view', $post['Post']['id'])); ?>
 </td>
 <td>
 <?php 
+    echo $this->Form->input('id', 
+        array(
+            'options' => $usuarios)
+        );
 echo $this->Form->postlink('Delete',
 array('action' => 'delete', $post['Post']['id']),
 array('confirm' => 'Are you sure?'))?>

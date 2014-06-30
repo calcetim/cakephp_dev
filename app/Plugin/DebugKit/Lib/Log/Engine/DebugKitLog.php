@@ -1,5 +1,9 @@
 <?php
 /**
+ * A CakeLog listener which saves having to munge files or other configured loggers.
+ *
+ * PHP 5
+ *
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  *
@@ -12,7 +16,7 @@
  */
 
 /**
- * A CakeLog listener which saves having to munge files or other configured loggers.
+ * Class DebugKitLog
  *
  */
 class DebugKitLog implements CakeLogInterface {
