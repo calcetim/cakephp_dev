@@ -55,8 +55,11 @@ class OrdenesController extends AppController {
                 
                 //$this->Ordene->recursive = 0;
 		$this->paginate = array(
-			'limit' => 5,
-			'conditions' => $conditions
+			'limit' => 10,
+			'conditions' => $conditions,
+                         'order' => array(
+                        'Ordene.id' => 'desc'
+        )
 		);
 		//$this->set('ordenes', $this->paginate());
 

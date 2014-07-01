@@ -46,7 +46,11 @@
                         if($this->Session->check('Usuario'))
                         
                         {
+                            
                         echo "<ul id=\"button\">";
+                                                echo "<li>";
+                        echo $this->Html->link('Listado OT', '/ordenes/index');
+                        echo "</li>";
                         echo "<li>";
                         echo $this->Html->link('Ingreso OT ', '/ordenes/add');
                         echo "</li>";
@@ -59,13 +63,17 @@
                         echo "<li>";
                         echo $this->Html->link('Ingreso Areas ', '/areas/index');
                         echo "</li>";
-                        echo "<li>";
-                        echo $this->Html->link('Listado OT', '/ordenes/index');
-                        echo "</li>";
+
 
                             echo "<li>";
                             echo $this->Html->link('Salir', '/usuarios/logout', array('class' => 'submit'));
                             echo "</li>";
+                            echo "<span style=\"padding-right:40px ;margin:0px 0px;display:block;float:right;\">";
+                            $value = $this->Session->read('Usuario');
+                            echo strtoupper("<b> USUARIO : ".$value[0]['Usuario']['nombre'])." ".strtoupper($value[0]['Usuario']['apellido_paterno'])." ".strtoupper($value[0]['Usuario']['apellido_materno'])."</b>";
+                            echo "</span>";
+                            //echo $this->Session->read('Usuario');
+                            //echo $session->read('Usuario');
                             //echo $this->Session->flash('flash', array(
   //  'params' => array('name' => $user['Usuario']['nombre'])
 //));
@@ -73,7 +81,9 @@
                             
                        
                         }
-                        //Debugger::dump($this->Session->check('Auth.User'));
+                        //Debugger::dump($this->Session->flash('flash', array('params' => array('name' => $user['Usuario']['nombre']))));
+                        //$value = $this->Session->read('Usuario');
+                        //Debugger::dump($value[0]['Usuario']['nombre']);
                         echo "</div>";
                         echo "</div>";
                         ?>    

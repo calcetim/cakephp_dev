@@ -7657,3 +7657,45 @@ Stack Trace:
 #3 /var/www/html/dev_cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/html/dev_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-06-30 20:50:15 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/html/dev_cakephp/app/View/Layouts/default.ctp, line 69]
+2014-06-30 20:50:15 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /dev_cakephp/ordenes/edit/14
+Stack Trace:
+#0 /var/www/html/dev_cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/d...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/d...', 69, Array)
+#2 /var/www/html/dev_cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/d...', 69, Array)
+#3 /var/www/html/dev_cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 20:54:28 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/html/dev_cakephp/app/View/Layouts/default.ctp, line 69]
+2014-06-30 20:54:28 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /dev_cakephp/ordenes/edit/14
+Stack Trace:
+#0 /var/www/html/dev_cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/d...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/d...', 69, Array)
+#2 /var/www/html/dev_cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/d...', 69, Array)
+#3 /var/www/html/dev_cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 22:00:30 Error: [NotFoundException] Not Found
+Request URL: /dev_cakephp/ordenes/index/page:3
+Stack Trace:
+#0 /var/www/html/dev_cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#1 /var/www/html/dev_cakephp/app/Controller/OrdenesController.php(75): Controller->paginate()
+#2 [internal function]: OrdenesController->index()
+#3 /var/www/html/dev_cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrdenesController), Array)
+#4 /var/www/html/dev_cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/html/dev_cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OrdenesController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/dev_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-30 22:00:42 Error: [NotFoundException] Not Found
+Request URL: /dev_cakephp/ordenes/index/page:3
+Stack Trace:
+#0 /var/www/html/dev_cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#1 /var/www/html/dev_cakephp/app/Controller/OrdenesController.php(75): Controller->paginate()
+#2 [internal function]: OrdenesController->index()
+#3 /var/www/html/dev_cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrdenesController), Array)
+#4 /var/www/html/dev_cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/html/dev_cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OrdenesController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/dev_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}

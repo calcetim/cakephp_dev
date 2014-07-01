@@ -30,7 +30,13 @@
 		<th width="10%">USUARIO ASIGNADO</th>
                 <th width="8%">ESTADO</th>
 		<th width="50%">PROBLEMA</th>
+                                <?php
+                $value = $this->Session->read('Usuario');
+                if($value[0]['TipoUsuario']['id'] == '2')
+                {
+                ?>
                 <th width="5%">ACCION</th>
+                <?php } ?>
 	</tr>
 	<?php foreach ($ordenes as $orden): ?>
 	<tr>
@@ -46,9 +52,15 @@
                 <td width="50%">
                         <?php echo $this->Html->link(strtoupper($orden['Ordene']['descripcion_problema']), array('controller' => 'ordenes', 'action' => 'edit', $orden['Ordene']['id'])); ?>
                 </td>
+                <?php
+                $value = $this->Session->read('Usuario');
+                if($value[0]['TipoUsuario']['id'] == '2')
+                {
+                ?>
  		<td width="5%">
 			<?php echo $this->Form->postlink('Eliminar', array('controller' => 'ordenes','action' => 'delete', $orden['Ordene']['id']), array('confirm' => '¿Esta seguro que quiere eliminar este registro?'))?>
 		</td>
+                <?php } ?>
 	</tr>
 	<?php endforeach; ?>
 </table>

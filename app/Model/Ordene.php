@@ -19,6 +19,42 @@
                                                                                 )   
                                                                             );
                                                        
+                                                       
+                                                       			public $validate = array(
+				'usuario_asignado_id' => array(
+					'required' => array(
+						'rule' => array('notEmpty'),
+						'message' => 'A username is required'
+						)
+					),
+				'estado_id' => array(
+					'required' => array(
+						'rule' => array('notEmpty'),
+						'message' => 'A password is required'
+						)
+					),
+				'area_id' => array(
+					'required' => array(
+						'rule' => array('notEmpty'),
+						'message' => 'A password is required'
+						)
+					),
+				'cliente_id' => array(
+					'required' => array(
+						'rule' => array('notEmpty'),
+						'message' => 'A password is required'
+						)
+					),
+				'descripcion_problema' => array(
+					'required' => array(
+						'rule' => array('notEmpty'),
+						'message' => 'A password is required'
+						)
+					)
+				
+				);
+                                                                        
+                                                       
 
 
                         
